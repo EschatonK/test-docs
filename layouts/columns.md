@@ -1,5 +1,5 @@
-**- Property: columns** abbreviation: **col**
-Utilities for controlling the aspect ratio of an element.
+**- Property: columns** abbreviation: **col**<br>
+Utilities for controlling the number of columns within an element.
 
 ```css
 colA {
