@@ -1,5 +1,6 @@
-**- Property: aspect-ratio** abbreviation: **ar**<br>
-Utilities for controlling the aspect ratio of an element.
+- **Property:** aspect-ratio
+- **Abbreviation:** ar  
+  Utilities for controlling the aspect ratio of an element.
 
 ```css
 arA {

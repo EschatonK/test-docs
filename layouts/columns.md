@@ -1,5 +1,6 @@
-**- Property: columns** abbreviation: **col**<br>
-Utilities for controlling the number of columns within an element.
+- **Property:** columns
+- **Abbreviation:** col  
+  Utilities for controlling the number of columns within an element.
 
 ```css
 colA {
