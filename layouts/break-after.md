@@ -1,16 +1,10 @@
 - **Property:** aspect-ratio
-- **Shorthand:** ar  
-  Utilities for controlling the aspect ratio of an element.
+- **Shorthand:** brka  
+  Utilities for controlling how a column or page should break after an element.
 
 ```css
-arA {
-  aspect-ratio: auto;
-}
-arS {
-  aspect-ratio: 1 / 1;
-}
-arV {
-  aspect-ratio: 16 / 9;
+brka<vCSS > {
+  break-after: <vCSS>;
 }
 ```
 

@@ -1,5 +1,5 @@
 - **Property:** columns
-- **Abbreviation:** col  
+- **Shorthand:** col  
   Utilities for controlling the number of columns within an element.
 
 ```css
