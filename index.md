@@ -1,7 +1,3 @@
-# Utility Classes Documentation
-
-A comprehensive collection of utility classes for rapid UI development.
-
 ## Getting Started
 
 - [Installation](./installation.md)
