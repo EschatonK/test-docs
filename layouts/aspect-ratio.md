@@ -73,7 +73,7 @@ _The container maintains a 16:9 aspect ratio while scaling responsively with the
 ### Card Images
 
 ```html
-<div class="w300px brd1px brdcGray p10px">
+<div class="w300px bd1px bdcGray p10px">
   <img class="arS w100%" src="./layouts/img/nha-trang-beaches-1.webp" />
   <h3 class="mT10px">Card Title</h3>
   <p>Card description text goes here.</p>

@@ -13,6 +13,7 @@ This guide demonstrates how to effectively use the utility CSS framework in your
 ```
 
 This example shows:
+
 - Text colors with `c` prefix (`cBlue`, `cGray`, `c#333`)
 - Font weight with `fw` prefix (`fw700`)
 - Font size with `fz` prefix (`fz24px`, `fz16px`)
@@ -30,6 +31,7 @@ This example shows:
 ```
 
 This example shows:
+
 - Display properties with `d` prefix (`dF` for flex, `dG` for grid, `dB` for block, `dN` for none)
 - Visibility control with `v` prefix (`vH` for hidden)
 
@@ -42,6 +44,7 @@ This example shows:
 ```
 
 This example shows:
+
 - Margin with `m` prefix (`m10px` for all sides)
 - Padding with `p` prefix (`p20px` for all sides)
 - Directional margins (`mT15px` for top, `mB15px` for bottom)
@@ -61,6 +64,7 @@ This example shows:
 ```
 
 This creates a flex container with:
+
 - Row direction (`fxdRow`)
 - Wrapping enabled (`fxwW`)
 - Space-between justification (`jcSb`)
@@ -80,6 +84,7 @@ This creates a flex container with:
 ```
 
 This creates a grid with:
+
 - Three columns with different widths (`gtc1fr;2fr;1fr`)
 - 15px gaps between items (`gap15px`)
 - An item spanning 2 columns (`gc1/3`)
@@ -90,18 +95,19 @@ This creates a grid with:
 ### Card Component
 
 ```html
-<div class="dF fxdColumn p20px brd1px brdcGray brdrs10px">
-  <img class="arV w100% brdrs5px" src="image.jpg" alt="Card image">
+<div class="dF fxdColumn p20px bd1px bdcGray bda10px">
+  <img class="arV w100% bda5px" src="image.jpg" alt="Card image" />
   <h3 class="mT15px mB10px cDarkBlue">Card Title</h3>
   <p class="cGray mB15px">Card description text goes here with some details.</p>
-  <button class="mT10px p10px;20px bgcBlue cWhite brdrs5px brd0">Read More</button>
+  <button class="mT10px p10px;20px bgcBlue cWhite bda5px bd0">Read More</button>
 </div>
 ```
 
 This creates a card with:
+
 - Flex column layout (`dF fxdColumn`)
 - Padding all around (`p20px`)
-- Border with rounded corners (`brd1px brdcGray brdrs10px`)
+- Border with rounded corners (`bd1px bdcGray bda10px`)
 - Image with 16:9 aspect ratio (`arV`)
 - Spacing between elements (`mT15px mB10px`)
 - Styled button at the bottom
@@ -121,6 +127,7 @@ This creates a card with:
 ```
 
 This creates a navigation bar with:
+
 - Flex layout with space-between (`dF jcSb aiC`)
 - Dark blue background (`bgcDarkBlue`)
 - Full width (`w100%`)
@@ -133,7 +140,9 @@ This creates a navigation bar with:
 ### Responsive Grid
 
 ```html
-<div class="dG xs:gtc1fr sm:gtc1fr;1fr md:gtc1fr;1fr;1fr lg:gtc1fr;1fr;1fr;1fr gap15px">
+<div
+  class="dG xs:gtc1fr sm:gtc1fr;1fr md:gtc1fr;1fr;1fr lg:gtc1fr;1fr;1fr;1fr gap15px"
+>
   <div class="p20px bgcLightGray">Item 1</div>
   <div class="p20px bgcLightGray">Item 2</div>
   <div class="p20px bgcLightGray">Item 3</div>
@@ -142,6 +151,7 @@ This creates a navigation bar with:
 ```
 
 This creates a grid that:
+
 - Shows 1 column on extra small screens (`xs:gtc1fr`)
 - Shows 2 columns on small screens (`sm:gtc1fr;1fr`)
 - Shows 3 columns on medium screens (`md:gtc1fr;1fr;1fr`)
@@ -155,6 +165,7 @@ This creates a grid that:
 ```
 
 This creates text that:
+
 - Increases in size as the screen gets larger
 - Adapts to different device sizes for better readability
 
@@ -168,6 +179,7 @@ This creates text that:
 ```
 
 This creates a layout that:
+
 - Stacks vertically on mobile (`fxdColumn`)
 - Displays side-by-side on medium screens and up (`md:fxdRow`)
 - Takes full width on mobile (`w100%`)
@@ -184,6 +196,7 @@ This creates a layout that:
 ```
 
 This demonstrates:
+
 - Layer 1 sets red color (`1cRed`)
 - Layer 2 overrides with blue (`2cBlue`)
 - Layer 3 with importance marker takes highest precedence (`3c!Green`)
@@ -191,24 +204,27 @@ This demonstrates:
 ### Selector Syntax
 
 ```html
-<button class="p10px;20px bgcBlue cWhite brdrs5px
+<button
+  class="p10px;20px bgcBlue cWhite bda5px
                bgcDarkBlue@:hover
                bgcGray@:active
-               brdcRed@:focus">
+               bdcRed@:focus"
+>
   Interactive Button
 </button>
 ```
 
 This creates a button that:
+
 - Has base styling for padding, color, and border radius
 - Changes background on hover (`bgcDarkBlue@:hover`)
 - Changes background when active (`bgcGray@:active`)
-- Shows a red border when focused (`brdcRed@:focus`)
+- Shows a red border when focused (`bdcRed@:focus`)
 
 ### Combined Properties
 
 ```html
-<div class="cWhite&bgcBlue&p20px&brdrs10px">
+<div class="cWhite&bgcBlue&p20px&bda10px">
   White text on blue background with padding and rounded corners
 </div>
 ```
@@ -231,25 +247,29 @@ This shows how the importance marker (`!`) ensures the green color takes precede
 ### Login Form
 
 ```html
-<form class="dF fxdColumn p30px brd1px brdcGray brdrs10px mX20px w100% md:w400px">
+<form class="dF fxdColumn p30px bd1px bdcGray bda10px mX20px w100% md:w400px">
   <h2 class="cDarkBlue mB20px tac">Login</h2>
-  
+
   <label class="cGray mB5px">Email</label>
-  <input type="email" class="p10px brd1px brdcLightGray brdrs5px w100% mB15px">
-  
+  <input type="email" class="p10px bd1px bdcLightGray bda5px w100% mB15px" />
+
   <label class="cGray mB5px">Password</label>
-  <input type="password" class="p10px brd1px brdcLightGray brdrs5px w100% mB20px">
-  
-  <button type="submit" class="p10px;20px bgcBlue cWhite brdrs5px brd0 
-                               bgcDarkBlue@:hover w100%">
+  <input type="password" class="p10px bd1px bdcLightGray bda5px w100% mB20px" />
+
+  <button
+    type="submit"
+    class="p10px;20px bgcBlue cWhite bda5px bd0 
+                               bgcDarkBlue@:hover w100%"
+  >
     Sign In
   </button>
-  
+
   <a href="#" class="cBlue tac mT15px tdN cDarkBlue@:hover">Forgot Password?</a>
 </form>
 ```
 
 This creates a complete login form with:
+
 - Flex column layout (`dF fxdColumn`)
 - Responsive width (`w100% md:w400px`)
 - Styled inputs and labels

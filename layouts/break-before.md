@@ -180,16 +180,14 @@ The `brkbRecto` and `brkbVerso` classes provide alternative ways to control page
   <p>This heading should stay on the same page as the previous content.</p>
 </div>
 
-<div class="example-container">
-  <div class="col3 gap20px">
-    <p>First column content.</p>
-    <p>More content in the first column.</p>
-    <h4 class="brkbAvoidColumn">
-      This heading prevents a column break before it, but may allow page breaks.
-    </h4>
-    <p>This heading should stay in the same column as the previous content.</p>
-    <p>More content that continues in the columns.</p>
-  </div>
+<div class="col3 gap20px">
+  <p>First column content.</p>
+  <p>More content in the first column.</p>
+  <h4 class="brkbAvoidColumn">
+    This heading prevents a column break before it, but may allow page breaks.
+  </h4>
+  <p>This heading should stay in the same column as the previous content.</p>
+  <p>More content that continues in the columns.</p>
 </div>
 ```
 

@@ -114,19 +114,16 @@ The `brkaPage` class is similar to `brkaAlways` but is specifically designed for
 ### Column Breaks with brkaColumn
 
 ```html
-<div class="example-container">
-  <div class="col2 gap40px">
-    <p>This is the first part of content in a multi-column layout.</p>
-    <p class="brkaColumn">
-      This paragraph forces a column break. The next content will start in a new
-      column.
-    </p>
-    <p>
-      This content appears at the top of the next column due to the column
-      break.
-    </p>
-    <p>Additional content continues flowing in the second column.</p>
-  </div>
+<div class="col2 gap40px">
+  <p>This is the first part of content in a multi-column layout.</p>
+  <p class="brkaColumn">
+    This paragraph forces a column break. The next content will start in a new
+    column.
+  </p>
+  <p>
+    This content appears at the top of the next column due to the column break.
+  </p>
+  <p>Additional content continues flowing in the second column.</p>
 </div>
 ```
 

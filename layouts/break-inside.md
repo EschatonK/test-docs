@@ -97,24 +97,22 @@ The `brkiAvoidPage` class prevents page breaks within the element but allows col
 ### Preventing Column Breaks with brkiAvoidColumn
 
 ```html
-<div class="example-container">
-  <div class="col3 gap20px">
-    <figure class="brkiAvoidColumn">
-      <div class="bgcGray p20px">Image placeholder</div>
-      <figcaption>
-        This figure and its caption will stay in the same column, but may be
-        moved to a new page if necessary.
-      </figcaption>
-    </figure>
-    <p>
-      The figure above uses brkiAvoidColumn to ensure the image and its caption
-      stay together in the same column.
-    </p>
-    <p>
-      This is particularly useful for figures, tables, code blocks, and other
-      content that should not be split across columns.
-    </p>
-  </div>
+<div class="col3 gap20px">
+  <figure class="brkiAvoidColumn">
+    <div class="bgcGray p20px">Image placeholder</div>
+    <figcaption>
+      This figure and its caption will stay in the same column, but may be moved
+      to a new page if necessary.
+    </figcaption>
+  </figure>
+  <p>
+    The figure above uses brkiAvoidColumn to ensure the image and its caption
+    stay together in the same column.
+  </p>
+  <p>
+    This is particularly useful for figures, tables, code blocks, and other
+    content that should not be split across columns.
+  </p>
 </div>
 ```
 
@@ -145,7 +143,7 @@ The `brkiAvoidRegion` class prevents region breaks within the element. This is p
 ```html
 <div class="example-container">
   <div class="col3 gap20px">
-    <div class="brkiAvoid p15px brd1px brdcGray">
+    <div class="brkiAvoid p15px bd1px bdcGray">
       <h4>Card Title</h4>
       <p>
         This card uses brkiAvoid to ensure all its content stays together in the
@@ -153,7 +151,7 @@ The `brkiAvoidRegion` class prevents region breaks within the element. This is p
       </p>
       <button class="p5px;10px bgcBlue cWhite">Read More</button>
     </div>
-    <div class="brkiAvoid p15px brd1px brdcGray">
+    <div class="brkiAvoid p15px bd1px bdcGray">
       <h4>Another Card</h4>
       <p>
         Cards with brkiAvoid maintain their visual integrity in multi-column
@@ -176,25 +174,25 @@ Using `brkiAvoid` on card components ensures they maintain their visual integrit
 ```html
 <div class="example-container">
   <div class="col2 gap40px">
-    <table class="brkiAvoid w100% brd1px brdcGray">
+    <table class="brkiAvoid w100% bd1px bdcGray">
       <thead>
         <tr>
-          <th class="p10px brdcGray brd1px">Name</th>
-          <th class="p10px brdcGray brd1px">Value</th>
+          <th class="p10px bdcGray bd1px">Name</th>
+          <th class="p10px bdcGray bd1px">Value</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="p10px brdcGray brd1px">Item 1</td>
-          <td class="p10px brdcGray brd1px">$100</td>
+          <td class="p10px bdcGray bd1px">Item 1</td>
+          <td class="p10px bdcGray bd1px">$100</td>
         </tr>
         <tr>
-          <td class="p10px brdcGray brd1px">Item 2</td>
-          <td class="p10px brdcGray brd1px">$200</td>
+          <td class="p10px bdcGray bd1px">Item 2</td>
+          <td class="p10px bdcGray bd1px">$200</td>
         </tr>
         <tr>
-          <td class="p10px brdcGray brd1px">Item 3</td>
-          <td class="p10px brdcGray brd1px">$300</td>
+          <td class="p10px bdcGray bd1px">Item 3</td>
+          <td class="p10px bdcGray bd1px">$300</td>
         </tr>
       </tbody>
     </table>
