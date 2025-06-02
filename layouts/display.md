@@ -258,8 +258,6 @@ The table display utilities allow you to create table-like layouts using CSS dis
 </div>
 ```
 
-![Table display example](./img/display/table.png)
-
 **Complete Table Structure Example:**
 
 ```html
