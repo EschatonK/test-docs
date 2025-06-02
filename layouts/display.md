@@ -105,9 +105,9 @@ dF {
 
 ```html
 <div class="dF gap20px p20px bgcLightGray bd1px;solid;#333">
-  <div class="p10px bgcLightBlue">Flex Item 1</div>
-  <div class="p10px bgcLightGreen">Flex Item 2</div>
-  <div class="p10px bgcLightCoral">Flex Item 3</div>
+  <div>Flex Item 1</div>
+  <div>Flex Item 2</div>
+  <div>Flex Item 3</div>
 </div>
 ```
 
@@ -125,10 +125,10 @@ dG {
 
 ```html
 <div class="dG gtc1fr;1fr gap20px p20px bgcLightGray bd1px;solid;#333">
-  <div class="p10px bgcLightBlue">Grid Item 1</div>
-  <div class="p10px bgcLightGreen">Grid Item 2</div>
-  <div class="p10px bgcLightCoral">Grid Item 3</div>
-  <div class="p10px bgcLightYellow">Grid Item 4</div>
+  <div>Grid Item 1</div>
+  <div>Grid Item 2</div>
+  <div>Grid Item 3</div>
+  <div>Grid Item 4</div>
 </div>
 ```
 
@@ -148,8 +148,8 @@ dIf {
 <p>
   This is inline text with an
   <span class="dIf gap10px p10px bgcLightGray bd1px;solid;#333">
-    <span class="p5px bgcLightBlue">Item 1</span>
-    <span class="p5px bgcLightGreen">Item 2</span>
+    <span>Item 1</span>
+    <span>Item 2</span>
   </span>
   inline flex container that flows with the text.
 </p>
@@ -171,10 +171,10 @@ dIg {
 <p>
   This is inline text with an
   <span class="dIg gtc1fr;1fr gap5px p10px bgcLightGray bd1px;solid;#333">
-    <span class="p5px bgcLightBlue">A</span>
-    <span class="p5px bgcLightGreen">B</span>
-    <span class="p5px bgcLightCoral">C</span>
-    <span class="p5px bgcLightYellow">D</span>
+    <span>A</span>
+    <span>B</span>
+    <span>C</span>
+    <span>D</span>
   </span>
   inline grid container that flows with the text.
 </p>
@@ -196,7 +196,7 @@ The `flow-root` display value creates a new block formatting context, which is u
 
 ```html
 <div class="dFr p20px bgcLightGray bd1px;solid;#333">
-  <div class="flL w100px h100px bgcLightBlue">Floated element</div>
+  <div class="flL">Floated element</div>
   <p>
     Flow-root creates a new block formatting context that contains floated
     elements and prevents them from escaping their container.
@@ -246,19 +246,17 @@ The table display utilities allow you to create table-like layouts using CSS dis
 **Basic Table Example:**
 
 ```html
-<div class="dT w100% bd1px;solid;#333">
+<div class="dT">
   <div class="dTr">
-    <div class="dTcell p10px bgcLightBlue bd1px;solid;#333">Cell 1</div>
-    <div class="dTcell p10px bgcLightGreen bd1px;solid;#333">Cell 2</div>
+    <div class="dTcell">Cell 1</div>
+    <div class="dTcell">Cell 2</div>
   </div>
   <div class="dTr">
-    <div class="dTcell p10px bgcLightCoral bd1px;solid;#333">Cell 3</div>
-    <div class="dTcell p10px bgcLightYellow bd1px;solid;#333">Cell 4</div>
+    <div class="dTcell">Cell 3</div>
+    <div class="dTcell">Cell 4</div>
   </div>
 </div>
 ```
-
-![Table display example](./img/display/table.png)
 
 **Complete Table Structure Example:**
 

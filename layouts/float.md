@@ -166,7 +166,7 @@ Clear utilities are used to control how elements behave in relation to floated e
 - `clrBoth` - Clear both left and right floats
 - `clrNone` - No clearing
 
-**Example with Clear Both:**
+**Example with Clear Left:**
 
 ```html
 <div>
