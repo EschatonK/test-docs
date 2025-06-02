@@ -39,101 +39,85 @@ The `object-position` property specifies the alignment of the replaced element's
 The following 3x3 grid demonstrates all nine object-position utility classes using the same image. Each position shows how the image is cropped and positioned within identical containers:
 
 ```html
-<div class="container">
-  <div class="grid">
-    <div class="demo-item">
-      <h3>opLt</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opLt"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opT</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opT"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opRt</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opRt"
-        />
-      </div>
-    </div>
+<h3>opLt</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opLt"
+  />
+</div>
 
-    <div class="demo-item">
-      <h3>opL</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opL"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opC</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opC"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opR</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opR"
-        />
-      </div>
-    </div>
+<h3>opT</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opT"
+  />
+</div>
 
-    <div class="demo-item">
-      <h3>opLb</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opLb"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opB</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opB"
-        />
-      </div>
-    </div>
-    <div class="demo-item">
-      <h3>opRb</h3>
-      <div class="image-container">
-        <img
-          src="layouts/img/nha-trang-beaches-1.webp"
-          alt="Beach scene"
-          class="w100% h100% opRb"
-        />
-      </div>
-    </div>
-  </div>
+<h3>opRt</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opRt"
+  />
+</div>
+
+<h3>opL</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opL"
+  />
+</div>
+
+<h3>opC</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opC"
+  />
+</div>
+
+<h3>opR</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opR"
+  />
+</div>
+
+<h3>opLb</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opLb"
+  />
+</div>
+
+<h3>opB</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opB"
+  />
+</div>
+
+<h3>opRb</h3>
+<div>
+  <img
+    src="layouts/img/nha-trang-beaches-1.webp"
+    alt="Beach scene"
+    class="w100% h100% opRb"
+  />
 </div>
 ```
 
