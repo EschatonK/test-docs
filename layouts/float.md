@@ -33,11 +33,11 @@ flL {
 **Example:**
 
 ```html
-<div class="p20px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flL w120px h80px mR15px mB10px brd1px;solid;#333"
+    class="flL"
   />
   <p>
     This text wraps around the floated element. The floated element is
@@ -65,11 +65,11 @@ flR {
 **Example:**
 
 ```html
-<div class="p20px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flR w120px h80px mL15px mB10px brd1px;solid;#333"
+    class="flR"
   />
   <p>
     This text wraps around the right-floated element. The floated element is
@@ -97,11 +97,11 @@ flN {
 **Example:**
 
 ```html
-<div class="p20px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flN w120px h80px mR15px mB10px brd1px;solid;#333"
+    class="flN"
   />
   <p>
     This element is not floated and remains in the normal document flow. It
@@ -129,16 +129,16 @@ The `inline-start` and `inline-end` values are logical properties that adapt to 
 **Example:**
 
 ```html
-<div class="p20px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flIs w100px h70px mR10px mB10px brd1px;solid;#333"
+    class="flIs"
   />
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flIe w100px h70px mL10px mB10px brd1px;solid;#333"
+    class="flIe"
   />
   <p>
     This text flows around both floated elements. The inline-start floated
@@ -169,16 +169,16 @@ Clear utilities are used to control how elements behave in relation to floated e
 **Example with Clear Both:**
 
 ```html
-<div class="p20px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flL w100px h70px mR10px mB10px brd1px;solid;#333"
+    class="flL"
   />
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="flR w100px h100px mL10px mB10px brd1px;solid;#333"
+    class="flR"
   />
   <p class="clrLeft">
     This text only wraps around right floated image, demonstrating how content

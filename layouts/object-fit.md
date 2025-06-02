@@ -35,11 +35,11 @@ The image is scaled to maintain its aspect ratio while fitting within the contai
 **Example:**
 
 ```html
-<div class="w500px h150px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="ofC w100% h100%"
+    class="ofC"
   />
 </div>
 ```
@@ -59,11 +59,11 @@ The image is scaled to maintain its aspect ratio while filling the entire contai
 **Example:**
 
 ```html
-<div class="w500px h150px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="ofCv w100% h100%"
+    class="ofCv"
   />
 </div>
 ```
@@ -83,11 +83,11 @@ The image is stretched to completely fill the container, potentially distorting 
 **Example:**
 
 ```html
-<div class="w500px h150px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="ofF w100% h100%"
+    class="ofF"
   />
 </div>
 ```
@@ -107,11 +107,11 @@ The image retains its natural size and may be clipped if larger than the contain
 **Example:**
 
 ```html
-<div class="w500px h150px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="ofN w100% h100%"
+    class="ofN"
   />
 </div>
 ```
@@ -131,11 +131,11 @@ The image behaves as if `none` or `contain` were specified, whichever results in
 **Example:**
 
 ```html
-<div class="w500px h150px bgcLightGray brd1px;solid;#333">
+<div>
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="ofSd w100% h100%"
+    class="ofSd"
   />
 </div>
 ```

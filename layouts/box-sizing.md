@@ -24,7 +24,7 @@ bxszContent-Box {
 **Example:**
 
 ```html
-<div class="bxszContent-Box w200px p20px bd5px;solid;#333 bgcLightBlue">
+<div class="bxszContent-Box w200px p20px bd5px;solid;#333">
   Content box: Width = content only (200px). Padding and border add to total
   size.
 </div>
@@ -43,7 +43,7 @@ bxszBorder-Box {
 **Example:**
 
 ```html
-<div class="bxszBorder-Box w200px p20px bd5px;solid;#333 bgcLightGreen">
+<div class="bxszBorder-Box w200px p20px bd5px;solid;#333">
   Border box: Width = content + padding + border (200px total).
 </div>
 ```

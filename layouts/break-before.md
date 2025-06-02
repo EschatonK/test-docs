@@ -51,13 +51,11 @@ The `break-before` property controls how page, column, or region breaks should b
 ### Default Behavior with brkbAuto
 
 ```html
-<div class="example-container">
-  <p>This paragraph comes before the element with break-before applied.</p>
-  <p class="brkbAuto">
-    This paragraph uses the default break behavior. The browser will determine
-    if a break should occur before this element.
-  </p>
-</div>
+<p>This paragraph comes before the element with break-before applied.</p>
+<p class="brkbAuto">
+  This paragraph uses the default break behavior. The browser will determine if
+  a break should occur before this element.
+</p>
 ```
 
 With `brkbAuto`, the browser automatically determines whether to insert a break before the element based on available space and other layout considerations.
@@ -65,14 +63,12 @@ With `brkbAuto`, the browser automatically determines whether to insert a break 
 ### Preventing Breaks with brkbAvoid
 
 ```html
-<div class="example-container">
-  <p>This paragraph comes before the heading and should stay with it.</p>
-  <h3 class="brkbAvoid">Section Title</h3>
-  <p>
-    This heading has brkbAvoid applied. The browser will try to avoid breaking
-    before this heading, keeping it together with the content that precedes it.
-  </p>
-</div>
+<p>This paragraph comes before the heading and should stay with it.</p>
+<h3 class="brkbAvoid">Section Title</h3>
+<p>
+  This heading has brkbAvoid applied. The browser will try to avoid breaking
+  before this heading, keeping it together with the content that precedes it.
+</p>
 ```
 
 The `brkbAvoid` class tells the browser to avoid inserting a page or column break before the element if possible.
@@ -80,15 +76,13 @@ The `brkbAvoid` class tells the browser to avoid inserting a page or column brea
 ### Forcing Page Breaks with brkbAlways
 
 ```html
-<div class="example-container">
-  <h3>Chapter 1</h3>
-  <p>This is the content of Chapter 1.</p>
-  <h3 class="brkbAlways">Chapter 2</h3>
-  <p>
-    This heading forces a page break before it. This content appears on a new
-    page, starting with the Chapter 2 heading.
-  </p>
-</div>
+<h3>Chapter 1</h3>
+<p>This is the content of Chapter 1.</p>
+<h3 class="brkbAlways">Chapter 2</h3>
+<p>
+  This heading forces a page break before it. This content appears on a new
+  page, starting with the Chapter 2 heading.
+</p>
 ```
 
 The `brkbAlways` class forces a page break before the element, ensuring the element starts on a new page.
@@ -96,14 +90,12 @@ The `brkbAlways` class forces a page break before the element, ensuring the elem
 ### Page Break with brkbPage
 
 ```html
-<div class="example-container">
-  <p>This is content on the current page.</p>
-  <h2 class="brkbPage">New Section</h2>
-  <p>
-    This heading forces a page break before it, similar to brkbAlways but
-    specifically for paged media.
-  </p>
-</div>
+<p>This is content on the current page.</p>
+<h2 class="brkbPage">New Section</h2>
+<p>
+  This heading forces a page break before it, similar to brkbAlways but
+  specifically for paged media.
+</p>
 ```
 
 The `brkbPage` class is similar to `brkbAlways` but is specifically designed for paged media contexts.
@@ -111,19 +103,15 @@ The `brkbPage` class is similar to `brkbAlways` but is specifically designed for
 ### Column Breaks with brkbColumn
 
 ```html
-<div class="example-container">
-  <div class="col2 gap40px">
-    <p>This is the first part of content in a multi-column layout.</p>
-    <p>More content in the first column.</p>
-    <h4 class="brkbColumn">
-      This heading forces a column break before it. It will appear at the top of
-      a new column.
-    </h4>
-    <p>
-      This content appears in the second column along with the heading above.
-    </p>
-    <p>Additional content continues flowing in the second column.</p>
-  </div>
+<div class="col2 gap40px">
+  <p>This is the first part of content in a multi-column layout.</p>
+  <p>More content in the first column.</p>
+  <h4 class="brkbColumn">
+    This heading forces a column break before it. It will appear at the top of a
+    new column.
+  </h4>
+  <p>This content appears in the second column along with the heading above.</p>
+  <p>Additional content continues flowing in the second column.</p>
 </div>
 ```
 
@@ -132,19 +120,17 @@ In multi-column layouts, `brkbColumn` forces the element and content after it to
 ### Page Position Control with brkbLeft and brkbRight
 
 ```html
-<div class="example-container print-example">
-  <p>Content on the initial page.</p>
-  <h2 class="brkbLeft">Left Page Section</h2>
-  <p>
-    This heading forces a page break before it, and it will appear on a left
-    page in a spread.
-  </p>
-  <h2 class="brkbRight">Right Page Section</h2>
-  <p>
-    This heading forces a page break before it, and it will appear on a right
-    page in a spread.
-  </p>
-</div>
+<p>Content on the initial page.</p>
+<h2 class="brkbLeft">Left Page Section</h2>
+<p>
+  This heading forces a page break before it, and it will appear on a left page
+  in a spread.
+</p>
+<h2 class="brkbRight">Right Page Section</h2>
+<p>
+  This heading forces a page break before it, and it will appear on a right page
+  in a spread.
+</p>
 ```
 
 The `brkbLeft` and `brkbRight` classes are useful for controlling content positioning in book-like layouts with facing pages.
@@ -152,19 +138,17 @@ The `brkbLeft` and `brkbRight` classes are useful for controlling content positi
 ### Recto and Verso Page Control
 
 ```html
-<div class="example-container print-example">
-  <p>Content on the initial page.</p>
-  <h2 class="brkbRecto">Recto Page Section</h2>
-  <p>
-    This heading forces a page break before it, and it will appear on a recto
-    (right-hand) page.
-  </p>
-  <h2 class="brkbVerso">Verso Page Section</h2>
-  <p>
-    This heading forces a page break before it, and it will appear on a verso
-    (left-hand) page.
-  </p>
-</div>
+<p>Content on the initial page.</p>
+<h2 class="brkbRecto">Recto Page Section</h2>
+<p>
+  This heading forces a page break before it, and it will appear on a recto
+  (right-hand) page.
+</p>
+<h2 class="brkbVerso">Verso Page Section</h2>
+<p>
+  This heading forces a page break before it, and it will appear on a verso
+  (left-hand) page.
+</p>
 ```
 
 The `brkbRecto` and `brkbVerso` classes provide alternative ways to control page positioning in book layouts.
@@ -172,13 +156,11 @@ The `brkbRecto` and `brkbVerso` classes provide alternative ways to control page
 ### Specific Avoidance with brkbAvoidPage, brkbAvoidColumn, and brkbAvoidRegion
 
 ```html
-<div class="example-container">
-  <p>This is content on the current page.</p>
-  <h3 class="brkbAvoidPage">
-    This heading prevents a page break before it, but may allow column breaks.
-  </h3>
-  <p>This heading should stay on the same page as the previous content.</p>
-</div>
+<p>This is content on the current page.</p>
+<h3 class="brkbAvoidPage">
+  This heading prevents a page break before it, but may allow column breaks.
+</h3>
+<p>This heading should stay on the same page as the previous content.</p>
 
 <div class="col3 gap20px">
   <p>First column content.</p>
@@ -196,17 +178,12 @@ These specialized avoidance classes provide more granular control over different
 ### All Breaks with brkbAll
 
 ```html
-<div class="example-container">
-  <p>This is content before the break.</p>
-  <h2 class="brkbAll">
-    This heading forces the strongest possible break before it. In paged media,
-    this creates a page break. In multi-column layouts, it forces a column
-    break.
-  </h2>
-  <p>
-    This content appears after the strongest possible break with the heading.
-  </p>
-</div>
+<p>This is content before the break.</p>
+<h2 class="brkbAll">
+  This heading forces the strongest possible break before it. In paged media,
+  this creates a page break. In multi-column layouts, it forces a column break.
+</h2>
+<p>This content appears after the strongest possible break with the heading.</p>
 ```
 
 The `brkbAll` class creates the strongest possible break before the element. It's a more forceful version that ensures breaks occur in all contexts where breaks are possible.

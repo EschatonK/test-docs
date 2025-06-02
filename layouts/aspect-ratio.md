@@ -59,8 +59,8 @@ _The image is displayed with a 16:9 widescreen aspect ratio._
 ### Responsive Media Containers
 
 ```html
-<div class="arV w100% bgcGray">
-  <img class="w100% h100% objfC" src="./layouts/img/nha-trang-beaches-1.webp" />
+<div class="arV w100%">
+  <img class="w100% h100%" src="./layouts/img/nha-trang-beaches-1.webp" />
 </div>
 ```
 
@@ -73,9 +73,9 @@ _The container maintains a 16:9 aspect ratio while scaling responsively with the
 ### Card Images
 
 ```html
-<div class="w300px bd1px bdcGray p10px">
+<div>
   <img class="arS w100%" src="./layouts/img/nha-trang-beaches-1.webp" />
-  <h3 class="mT10px">Card Title</h3>
+  <h3>Card Title</h3>
   <p>Card description text goes here.</p>
 </div>
 ```

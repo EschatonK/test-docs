@@ -44,7 +44,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opLt"
+    class="opLt"
   />
 </div>
 
@@ -53,7 +53,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opT"
+    class="opT"
   />
 </div>
 
@@ -62,7 +62,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opRt"
+    class="opRt"
   />
 </div>
 
@@ -71,7 +71,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opL"
+    class="opL"
   />
 </div>
 
@@ -80,7 +80,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opC"
+    class="opC"
   />
 </div>
 
@@ -89,7 +89,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opR"
+    class="opR"
   />
 </div>
 
@@ -98,7 +98,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opLb"
+    class="opLb"
   />
 </div>
 
@@ -107,7 +107,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opB"
+    class="opB"
   />
 </div>
 
@@ -116,7 +116,7 @@ The following 3x3 grid demonstrates all nine object-position utility classes usi
   <img
     src="layouts/img/nha-trang-beaches-1.webp"
     alt="Beach scene"
-    class="w100% h100% opRb"
+    class="opRb"
   />
 </div>
 ```

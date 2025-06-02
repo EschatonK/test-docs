@@ -258,37 +258,29 @@ The table display utilities allow you to create table-like layouts using CSS dis
 </div>
 ```
 
+![Table display example](./img/display/table.png)
+
 **Complete Table Structure Example:**
 
 ```html
-<div class="dT w100% bd1px;solid;#333">
-  <div class="dTcp p10px bgcLightGray bd1px;solid;#333 tac fw700">
-    Table Caption
-  </div>
+<div class="dT">
+  <div class="dTcp">Table Caption</div>
   <div class="dThg">
     <div class="dTr">
-      <div class="dTcell p10px bgcLightBlue bd1px;solid;#333 fw700">
-        Header 1
-      </div>
-      <div class="dTcell p10px bgcLightBlue bd1px;solid;#333 fw700">
-        Header 2
-      </div>
+      <div class="dTcell">Header 1</div>
+      <div class="dTcell">Header 2</div>
     </div>
   </div>
   <div class="dTrg">
     <div class="dTr">
-      <div class="dTcell p10px bgcLightGreen bd1px;solid;#333">Data 1</div>
-      <div class="dTcell p10px bgcLightGreen bd1px;solid;#333">Data 2</div>
+      <div class="dTcell">Data 1</div>
+      <div class="dTcell">Data 2</div>
     </div>
   </div>
   <div class="dTfg">
     <div class="dTr">
-      <div class="dTcell p10px bgcLightCoral bd1px;solid;#333 fw700">
-        Footer 1
-      </div>
-      <div class="dTcell p10px bgcLightCoral bd1px;solid;#333 fw700">
-        Footer 2
-      </div>
+      <div class="dTcell">Footer 1</div>
+      <div class="dTcell">Footer 2</div>
     </div>
   </div>
 </div>
@@ -309,13 +301,13 @@ The `contents` display value makes the element's children appear as if they were
 **Example:**
 
 ```html
-<div class="dF gap10px p20px bgcLightGray bd1px;solid;#333">
-  <div class="p10px bgcLightBlue">Item 1</div>
+<div class="dF">
+  <div>Item 1</div>
   <div class="dC">
-    <div class="p10px bgcLightGreen">Item 2 (in contents wrapper)</div>
-    <div class="p10px bgcLightCoral">Item 3 (in contents wrapper)</div>
+    <div>Item 2 (in contents wrapper)</div>
+    <div>Item 3 (in contents wrapper)</div>
   </div>
-  <div class="p10px bgcLightYellow">Item 4</div>
+  <div>Item 4</div>
 </div>
 ```
 
@@ -334,10 +326,10 @@ The `list-item` display value makes any element behave like a list item, includi
 **Example:**
 
 ```html
-<div class="p20px bgcLightGray bd1px;solid;#333">
-  <div class="dLi p5px">This div behaves like a list item</div>
-  <div class="dLi p5px">Another list item div</div>
-  <div class="dLi p5px">Third list item div</div>
+<div>
+  <div class="dLi">This div behaves like a list item</div>
+  <div class="dLi">Another list item div</div>
+  <div class="dLi">Third list item div</div>
 </div>
 ```
 
@@ -354,9 +346,9 @@ dN {
 **Example:**
 
 ```html
-<div class="p10px bgcLightBlue">Visible element</div>
-<div class="dN p10px bgcRed">Hidden element</div>
-<div class="p10px bgcLightGreen">Another visible element</div>
+<div>Visible element</div>
+<div class="dN">Hidden element</div>
+<div>Another visible element</div>
 ```
 
 ![None display example](./img/display/none.png)
