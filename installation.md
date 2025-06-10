@@ -67,6 +67,10 @@ Where:
 | `lg:`  | min-width: 992px  |
 | `xl:`  | min-width: 1200px |
 | `2xl:` | min-width: 1400px |
+| `sma:` | max-width: 768px  |
+| `mda:` | max-width: 992px  |
+| `lga:` | max-width: 1200px |
+| `xla:` | max-width: 1400px |
 
 ## Layer System
 

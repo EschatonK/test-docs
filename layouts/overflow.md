@@ -6,16 +6,16 @@
 oflAuto {
   overflow: auto;
 }
-oflH {
+oflHidden {
   overflow: hidden;
 }
-oflV {
+oflVisibile {
   overflow: visible;
 }
 oflScroll {
   overflow: scroll;
 }
-oflC {
+oflClip {
   overflow: clip;
 }
 ```
@@ -45,7 +45,7 @@ Shows scrollbars only when content overflows. This is the most commonly used ove
 ## Overflow Hidden
 
 ```css
-oflH {
+oflHidden {
   overflow: hidden;
 }
 ```
@@ -55,7 +55,7 @@ Clips content that overflows the container. No scrollbars are shown, and overflo
 **Example:**
 
 ```html
-<div class="oflH">
+<div class="oflHidden">
   <!-- ...  -->
 </div>
 ```
@@ -63,7 +63,7 @@ Clips content that overflows the container. No scrollbars are shown, and overflo
 ## Overflow Visible
 
 ```css
-oflV {
+oflVisibile {
   overflow: visible;
 }
 ```
@@ -73,7 +73,7 @@ Content overflows the container and remains visible. This is the default behavio
 **Example:**
 
 ```html
-<div class="oflV">
+<div class="oflVisibile">
   <!-- ... -->
 </div>
 ```
